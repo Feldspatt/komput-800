@@ -1,0 +1,1 @@
+{"maxLevel":2,"duration":15047,"score":34,"date":"2023-05-29T22:24:04.332Z","equations":[{"level":1,"equation":{"string":"12 + 12","answer":24,"operationType":"addition"},"points":34,"duration":6144,"correct":true},{"level":2,"equation":{"string":"3 x 6","answer":18,"operationType":"multiplication"},"points":0,"duration":8903,"correct":false}]}

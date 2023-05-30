@@ -1,0 +1,1 @@
+{"maxLevel":2,"duration":15016,"score":39,"date":"2023-05-29T11:13:24.502Z","equations":[{"level":1,"equation":{"string":"4 / 2","answer":2,"operationType":"division"},"points":39,"duration":1179,"correct":true},{"level":2,"equation":{"string":"21 + 6","answer":27,"operationType":"addition"},"points":0,"duration":13837,"correct":false}]}

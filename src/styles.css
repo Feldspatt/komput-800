@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: normal;
+  src: url('/BebasNeue-Regular.ttf') format('truetype');
+}
+
+:root {
+  font-family: "Bebas Neue", sans-serif;
+  --very-light-grey: #f6f6f6;
+  --light-grey: #e7e7e7;
+  --medium-grey: #bebebe;
+  --dark-grey: #0f0f0f;
+
+  --focus-color: #9bf1e4;
+
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: var(--dark-grey);
+  background-color: var(--very-light-grey);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+* {
+  font-family: "Bebas Neue", sans-serif;
+}
