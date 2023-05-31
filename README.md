@@ -6,6 +6,7 @@ A calculus game,
  - game data are locally saved.
  
 A training mode is available, letting you pick the operation types and the difficulty level without time pressure.
+
 In a separate window, you can assess statistics about the average duration you spend to solve x operation type at each y level.
 
 ### Why is it?
