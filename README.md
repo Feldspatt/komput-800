@@ -35,5 +35,7 @@ Some related features that I will look to implement:
 ### Afterthoughts:
 
 Tauri is quite simple to get into, specially for one who is already familiar with Cargo and Vite.
+
 Still I learned a lot of little things about Svelte, Rust deserialization and Chart.js.
+
 While rough in its form, the game is actually good at making one better at calculus.
