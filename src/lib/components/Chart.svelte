@@ -68,3 +68,15 @@
 <div>
     <canvas id="chart" bind:this={chart}></canvas>
 </div>
+
+<style>
+    div {
+        padding: 2rem;
+    }
+
+    canvas {
+        padding: 1rem;
+        background-color: #ffffff;
+        border: 1px solid #000000;
+    }
+</style>

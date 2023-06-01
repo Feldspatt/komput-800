@@ -19,7 +19,7 @@ export function getRandomEquation(level: number, availableOperations: OperationT
 
 export function createAddition(level): Equation {
 
-    let sum = Math.ceil(Math.random() * Math.pow(level, 1.5) + level + 22);
+    let sum = Math.ceil(Math.random() * Math.pow(level, 1.8) + level + 15);
 
     let a = Math.ceil(Math.random() * (sum-1));
     let b = sum - a;
@@ -29,17 +29,18 @@ export function createAddition(level): Equation {
 
 export function createSubtraction(level): Equation {
 
-    let sum = Math.ceil(Math.random() * level/3 * 1.5 + level*2/3 + 25);
+    let a = Math.floor(Math.random() * Math.pow(level+2, 1.4) + Math.pow(level, 1.1));
 
-    let a = Math.ceil(Math.random() * (sum-1));
+    let sum = a + Math.ceil(Math.random() * Math.pow(level+2, 1.3));
+
     let b = sum - a;
 
-    return new Equation(`${sum} - ${a}`, b, "subtraction")
+    return new Equation(`${sum} - ${b}`, a, "subtraction")
 }
 
 export function createMultiplication(level): Equation {
 
-    const multiplierSum = 2 + level + Math.ceil(Math.random() * (level+3) / 10 + Math.random() * 6);
+    const multiplierSum = 2 + level + Math.ceil(Math.random() * level / 2);
     const a = Math.max(Math.floor(Math.random() * (multiplierSum -3)), 2)
     const b = multiplierSum - a
 
